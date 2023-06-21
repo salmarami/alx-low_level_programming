@@ -29,12 +29,12 @@ void print_times_table(int n)
 				{
 					_putchar((s / 100) + 48);
 					_putchar((s / 10) % 10 + 48);
+				}
 				else if (s <= 99 && s >= 10)
 					_putchar((s / 10) + 48);
 				_putchar((s % 10) + 48);
-				}
-				_putchar('\n');
 			}
+			_putchar('\n');
 		}
 	}
 }
