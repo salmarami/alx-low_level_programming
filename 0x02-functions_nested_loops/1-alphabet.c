@@ -10,7 +10,7 @@
 void print_alphabet(void)
 {
 
-	nt i;
+	int i;
 
 	or (i = 'a'; i <= 'z'; i++)
 	
